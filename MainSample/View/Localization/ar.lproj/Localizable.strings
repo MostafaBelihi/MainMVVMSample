@@ -1,0 +1,376 @@
+/* 
+  Localizable.strings
+  MainSample
+
+  Created by Mostafa AlBelliehy on 26/02/2023.
+  
+*/
+
+/* Tabs */
+"home" = "الرئيسية";
+"cart" = "العربة";
+"merchants" = "المتاجر";
+"profile" = "حسابك";
+
+/* Home */
+"merchTypeHeader" = "استكشف المتاجر";
+"merchRecommendedHeader" = "متاجر موصى بها";
+"merchTopProductsHeader" = "تصفح منتجات ({name})";
+
+/* General */
+"name" = "الاسم";
+"firstName" = "الاسم الأول";
+"lastName" = "الاسم الأخير";
+"phone" = "رقم التليفون";
+"email" = "الإيميل";
+"street" = "الشارع";
+"password" = "كلمة المرور";
+"newPassword" = "كلمة المرور الجديدة";
+"confirmPassword" = "تأكيد كلمة المرور";
+"login" = "تسجيل الدخول";
+"register" = "إنشاء حساب جديد";
+"logout" = "الخروج";
+
+"merchant" = "متجر";
+"product" = "منتج";
+"egp" = "جنيه";
+"egp2" = "ج";
+"egpEn" = "EGP";
+"storeType" = "نوع المتجر";
+"productSeller" = "البائع:";
+
+"allMerchants" = "جميع المتاجر";
+"allProducts" = "كل المنتجات";
+
+"shippingMethodText" = "التوصيل من خلال";
+"shippingMethodMerhcnat" = "التاجر";
+"metchantCategoryOffers" = "صفحة العروض";
+
+"gram" = "جرام";
+"kilo" = "كيلو";
+"gramShort" = "جم";
+"kiloShort" = "ك";
+"quarter" = "ربع";
+"half" = "نص";
+"threeQuarter" = "ثلاثة أرباع";
+"quarterShort" = "¼";
+"halfShort" = "½";
+"threeQuarterShort" = "¾";
+
+"min" = "دقيقة";
+
+"address" = "العنوان";
+"addresses" = "العناوين";
+"orderDataShippingAddress" = "عنوان الشحن";
+
+"orderDataDeliveryTime" = "ميعاد التوصيل"; 
+"orderDataDeliveryTimeNow" = "الآن"; 
+"orderDataDeliveryTimeNowDescription" = "(خلال ساعة إلى ساعة و نصف)"; 
+"orderDataDeliveryTimeLater" = "وقت آخر"; 
+"orderDataDeliveryTimeLaterDescription" = "(تحديد الوقت المطلوب لإرسال الطلبات)"; 
+
+"orderDataDeliveryMethod" = "طريقة الاستلام"; 
+"orderDataDeliveryMethodShipping" = "توصيل إلى المنزل"; 
+"orderDataDeliveryMethodPickup" = "الاستلام من الفرع"; 
+
+"orderDataNotes" = "ملاحظات"; 
+
+"quantity" = "الكمية";
+"orderSummary" = "ملخص الطلب";
+"total" = "المجموع";
+"total2" = "إجمالي المبلغ";
+"total3" = "المبلغ المطلوب";
+"shippingCost" = "مصاريف الشحن";
+"serviceFees" = "مصاريف خدمة";
+"shippingCostFree" = "مجانا";
+"shippingCostFixed" = "ثابتة - {0} جنيه";
+"paymentMethods" = "طرق الدفع";
+"paymentMethodsCOD" = "الدفع عند الاستلام";
+"paymentMethodsEWallet" = "محفظة إلكترونية";
+"paymentMethodsEWalletLong" = "(فودافون كاش - اتصالات كاش - أورانج كاش - وي باي)";
+"paymentMethodsBankCard" = "كرت بنكي";
+"paymentMethodsBankCardLong" = "(ميزة - فيزا - ماستر كارد - مرتبات)";
+"couponCode" = "كود الخصم";
+"discount" = "الخصم";
+
+"selecteStore" = "مكان المتجر";
+"general" = "عامة";
+
+"orders" = "الطلبات";
+"myOrders" = "طلباتي";
+"orderDetailsTitleInProgress" = "متابعة الطلب";
+"orderDetailsTitleFinished" = "تفاصيل الطلب";
+"orderShippingStatus" = "حالة الشحنة";
+"orderBill" = "الفاتورة";
+"orderDate" = "تاريخ الطلب";
+"deliveryDate" = "موعد التسليم";
+
+"privacyPolicy" = "شروط الخصوصية";
+"returnPolicy" = "شروط الإرجاع و الاستبدال";
+"contactUs" = "اتصل بنا";
+"deleteAccount" = "إغلاق الحساب";
+
+"select" = "اختر";
+
+"wishlist" = "المنتجات المفضلة";
+"userWallet" = "نقاطك";
+
+/* Enum: Merchant Type */
+"grocery" = "محلات بقالة";
+"vegetablesAndFruits" = "خضار و فاكهة";
+"foodOrBeverages" = "مطاعم و عصير";
+"electronics" = "إلكترونيات منزلية";
+"mobile" = "موبايلات و إكسسوارات";
+"clothes" = "ملابس";
+"pharmacy" = "صيدليات و مستحضرات تجميل";
+
+/* Enum: Store Type */
+"shopOrSmallShop" = "محل صغير";
+"cafeOrRestaurant" = "قهوة أو مطعم";
+
+/* Enum: Order Status */ 
+"pending" = "انتظار قبول الطلب";
+"pendingPayment" = "في انتظار الدفع";
+"accepted" = "جاري القبول";
+"processing" = "جاري التحضير";
+"readyShipping" = "جاهز للشحن";
+"shipping" = "جاري الشحن";
+"complete" = "تم التسليم";
+"canceled" = "تم الإلغاء";
+"closed" = "مغلق";
+"failedSync" = "حدث خطأ";
+
+"pendingMessage" = "جاري قبول الطلب الخاص بك";
+"pendingPaymentMessage" = "لم يتم الدفع بعد";
+"acceptedMessage" = "جاري قبول الطلب الخاص بك";
+"processingMessage" = "جاري تحضير الطلب الخاص بك";
+"readyShippingMessage" = "جاري تجهيز الشحن للطلب الخاص بك";
+"shippingMessage" = "جاري شحن الطلب الخاص بك";
+"completeMessage" = "تم تسليم آخر طلب لكم بنجاح";
+"canceledMessage" = "تم إلغاء الطلب الخاص بك";
+"closedMessage" = "لقد تم إغلاق طلبك";
+"failedSyncMessage" = "حدث خطأ في طلبك";
+
+/* Titles */
+"storePickerTitle" = "المتجر";
+
+"loginUsername" = "عنوان البريد الإلكتروني أو رقم الهاتف";
+"loginForgotPassword" = "هل نسيت كلمة المرور؟";
+"forgotPasswordTitle" = "نسيت كلمة المرور";
+"forgotPasswordTitle2" = "سيتم إرسال رسالة على الموبايل الخاص بك للتحقق";
+"changePasswordTitle" = "تعيين كلمة مرور جديدة";
+"phoneVerificationTitle" = "التحقق من رقم الهاتف";
+
+"cartTitle" = "عربة التسوق";
+"barCodeReaderTitle" = "قم بمسح الباركود بالكاميرا";
+
+/* Buttons */
+"ok" = "OK";
+"yes" = "نعم";
+"no" = "لا";
+"edit" = "تعديل";
+"save" = "حفظ";
+"delete" = "Delete";
+"retry" = "إعادة المحاولة";
+"cancel" = "إلغاء";
+"apply" = "تطبيق";
+"details" = "تفاصيل";
+"update" = "تحديث";
+"confirm" = "تأكيد";
+
+"viewAll" = "عرض الكل";
+"latestOrderGiftButton" = "الحق هديتك";
+
+"addToCart" = "أضف إلى العربة";
+"updateCart" = "تحديث العربة";
+
+"continueAsGuest" = "الاستمرار كضيف";
+"registerCustomer" = "التسجيل كمشتري";
+"registerMerchant" = "التسجيل كتاجر";
+"submitRegister" = "تأكيد بيانات التسجيل";
+"submitVerifyPhone" = "تأكيد رقم الهاتف";
+"submitPassword" = "تأكيد كلمة المرور الجديدة";
+"resendCode" = "أرسل الكود مرة أخرى";
+"verify" = "تحقق";
+"proceed" = "تابع";
+"shopMore" = "تصفح المزيد من المنتجات";
+
+"reloadCart" = "تحديث العربة";
+"proceedShopping" = "استكمل التسوق";
+"deleteAll" = "حذف الكل";
+"deleteItem" = "حذف العنصر";
+"quantityExpired" = "نفدت الكمية";
+
+"addAddress" = "عنوان جديد";
+"editAddress" = "تعديل عنوان";
+"placeOrder" = "إتمام الطلب";
+
+"filterSort" = "رتب";
+"filterPick" = "اختر";
+
+"sortPriceLow" = "الأقل سعرا";
+"sortPriceHigh" = "الأعلى سعرا";
+
+/*** Messages ***/
+/* General Messages */
+"headerSlogan" = "الراحة معمولة عشانك";
+"storePickerMessage" = "اختر متجرا للانتقال إليه";
+
+"latestOrderGiftMessage" = "استلمت الطلب؟ الحق هديتك!";
+
+"mustUpdateAppTitle" = "تحديث التطبيق";
+"mustUpdateAppMessage" = "يوجد إصدار جديد من التطبيق متاح على متجر التطبيقات. رجاء تحديث التطبيق حتى تتمكن من متابعة استخدامه.";
+
+"successTitle" = "تمت العملية بنجاح!";
+"failTitle" = "نأسف لعدم إتمام العملية!";
+"successRegister" = "تم التسجيل بنجاح!";
+"successChangePassword" = "تم تغيير كلمة المرور بنجاح!";
+"failedRegister" = "فشل التسجيل.";
+"failedLogin" = "خطأ في بيانات الدخول.";
+"unauthFailure" = "لم يسمح بإتمام العملية.";
+"failedPhoneVerification" = "فشل التحقق من رقم هاتفك.";
+
+"authRequired" = "لم تقم بتسجيل الدخول";
+"authRequired2" = "قم بتسجيل الدخول أو إنشاء حساب جديد";
+
+"logoutConfirmTitle" = "تسجيل الخروج!";
+"logoutConfirmMessage" = "هل أنت متأكد من تسجيل الخروج؟";
+
+"placeholderSearch" = "ابحث عن منتجاتك و تجارك المفضلين...";
+"placeholderSearchShort" = "ابحث عن منتجاتك و تجارك...";
+
+"formPlaceholderName" = "أدخل اسمك";
+"formPlaceholderFirstName" = "أدخل الاسم الأول";
+"formPlaceholderLastName" = "أدخل الاسم الأخير";
+"formPlaceholderEmail" = "أدخل الإيميل الخاص بك";
+"formPlaceholderPhone" = "أدخل رقم التليفون";
+"formPlaceholderStreet" = "أدخل الشارع";
+"formPlaceholderPassword" = "أدخل كلمة المرور";
+"formPlaceholderConfirmPassword" = "أدخل كلمة المرور مرة أخرى";
+"phoneVerificationMessage" = "أدخل الكود المرسل إلى رقمك للتحقق";
+
+"emptyMerchantsList" = "عذرا لا يوجد تجار";
+"emptyMerchantsList2" = "انتظر الجديد في المستقبل";
+
+"emptyHomeCategoriesList" = "نأسف، يوجد خطأ ما و لم يمكن عرض البيانات";
+"emptyProductsList" = "عذرا لا توجد منتجات!";
+"initSearchList" = "قم بإدخال نص للبحث عن المنتجات التي ترغب فيها";
+"emptySearchList" = "نأسف، لم نتمكن من إيجاد ما تبحث عنه";
+"unavailableProductPrice" = "نفدت و جاري توفيرها";
+
+"emptyCartMessage" = "لا توجد منتجات مضافة للعربة";
+"emptyCartMessage2" = "ابدأ بالتسوق الآن";
+
+"exceededMaxQuantityTitle" = "كمية غير صحيحة";
+"exceededMaxQuantity" = "عذرا متوفر {0} فقط";
+"exceededMaxQuantity0" = "عذرا نفدت الكمية";
+"pieces1" = "قطعة واحدة";
+"pieces2" = "قطعتان";
+"pieces3to10" = "{0} قطع";
+"pieces11plus" = "{0} قطعة";
+"activeCartOperationInProgress" = "توجد عمليات بالفعل على سلة مشترياتك و لا يمكنك تحديثها الآن.";
+"failedInitCart" = "حدثت مشكلة أثناء إعداد سلة المشتريات، حاول مرة أخرى.";
+"failedAddToCartUniqueMerchant" = "يمكنك إضافة منتجات من تاجر واحد فقط.";
+
+"clearCartConfirmTitle" = "حذف السلة!";
+"clearCartConfirmMessage" = "هل أنت متأكد من حذف كل محتويات السلة؟";
+
+"placeOrderTitle" = "إعداد الطلب";
+"failedInitOrder" = "حدث خطأ أثناء محاولة إعداد طلبك، رجاء المحاولة مرة أخرى لاحقا!";
+"placeOrderConfirmMessage" = "سيتم البدء في إنشاء الطلب الخاص بك، سيتم حذف أية منتجات نفذت أو لم تعد متوفرة!";
+
+"emptyAddressesMessage" = "لا توجد أي عناوين بعد";
+"emptyAddressesMessage2" = "قم بإضافة أول عنوان لك";
+
+"deleteAddressConfirmTitle" = "حذف عنوان!";
+"deleteAddressConfirmMessage" = "هل أنت متأكد من حذف هذا العنوان؟";
+
+"orderFormTitleStep1" = "تفاصيل الطلب";
+"orderFormTitleStep2" = "مراجعة الطلب";
+"orderAddressPlaceholder" = "اختر عنوانا";
+"orderNotAllowedUnavailableItems" = "احذف المنتجات الغير متوفرة";
+"orderNotAllowedInsufficientCost" = "قيمة الطلب أقل من الحد الأدنى للطلب";
+"orderCouponCodePlaceholder" = "اكتب كود الخصم إن وجد";
+"orderCouponCodeInactive" = "كود الخصم لا يعمل";
+"couponCodeSuccess" = "تم تطبيق كود الخصم بنجاح.";
+"orderSuccess" = "تم تسجيل طلبك بنجاح.";
+
+"orderGiftRedeemMessage1" = "أدخل الكود على فاتورتك";
+"orderGiftRedeemMessage2" = "الكود مكون من 7 عناصر";
+"orderGiftRedeemSuccMessage1" = "مبروووووووك !";
+"orderGiftRedeemSuccMessage2" = "هديتك وصلت";
+
+"deleteAccountTitle" = "إغلاق الحساب";
+"deleteAccountConfirm" = "هل أنت متأكد من غلق حسابك، جميع بياناتك سيتم حذفها، لا يمكن التراجع عن هذه الخطوة.";
+
+"emptyOrdersListMessage" = "لا توجد طلبات";
+
+"barCodeCameraFailMessage" = "توجد مشكلة بالكاميرا";
+
+/* App Errors */
+"noData" = "لا توجد بيانات.";
+"dataError" = "خطأ أثناء التحميل.";
+"internalError" = "لقد حدث خطأ ما!";
+"noConnection" = "يبدو أنك غير متصل بالإنترنت.";
+"moyaFailure" = "حدثت مشكلة أثناء التحميل.";
+"unknownError" = "حدثت مشكلة أثناء التحميل.";
+"serviceError" = "حدث خطأ أثناء معالجة البيانات.";
+"invalidEndpoint" = "حدث خطأ أثناء معالجة البيانات.";
+"decodingError" = "حدث خطأ أثناء معالجة البيانات.";
+"unauthorizedUser" = "رجاء قم بتسجيل الدخول.";
+"unauthorizedApp" = "There is an issue with the app service. We're sorry for the inconvenience.";
+
+"noDataTitle" = "حدث خطأ ما!";
+"dataErrorTitle" = "حدث خطأ ما!";
+"internalErrorTitle" = "حدث خطأ ما!";
+"noConnectionTitle" = "غير متصل!";
+"moyaFailureTitle" = "حدث خطأ ما!";
+"unknownErrorTitle" = "حدث خطأ ما!";
+"serviceErrorTitle" = "خطأ في الخدمة";
+"invalidEndpointTitle" = "خطأ في الخدمة";
+"decodingErrorTitle" = "خطأ في الخدمة";
+"unauthorizedUserTitle" = "قم بتسجيل الدخول";
+"unauthorizedAppTitle" = "خطأ في الخدمة";
+
+"noDataRetry" = "حاول مرة أخرى.";
+"dataErrorRetry" = "حاول مرة أخرى.";
+"internalErrorRetry" = "حاول مرة أخرى.";
+"noConnectionRetry" = "رجاء مراجعة الاتصال و المحاولة مرة أخرى.";
+"moyaFailureRetry" = "حاول مرة أخرى.";
+"unknownErrorRetry" = "حاول مرة أخرى.";
+"serviceErrorRetry" = "حاول مرة أخرى.";
+"invalidEndpointRetry" = "حاول مرة أخرى.";
+"decodingErrorRetry" = "حاول مرة أخرى.";
+"unauthorizedUserRetry" = "حاول مرة أخرى.";
+"unauthorizedAppRetry" = "حاول مرة أخرى. إذا استمرت المشكلة، حاول في وقت لاحق.";
+
+/* Form Validation Messages */
+"masterValidationMessage" = "The data you entered is not valid, please check detailed messages associated with each field and try again!";
+"masterValidationMessageTitle" = "قم بإكمال بياناتك";
+"fieldValidationMessageGlobal" = "Field is not valid!";
+"valRequiredField" = "This field is required!";
+"valStringRange" = "يجب أن يكون ما أدخلته بين {0} و {1} حرف!";
+"valStringMinLen" = "{0} يجب أن لا تقل عن {1} أحرف أو رقم!";
+"valStringMinLen2" = "{0} يجب أن لا يقل عن {1} أحرف أو رقم!";
+"valStringMaxLen" = "Input must be less than {0} characters!";
+"valPhoneNumberPattern" = "رقم الهاتف الذي أدخلته غير صحيح!";
+"valUsernamePattern" = "Incorrect username format!";
+"valEmailPattern" = "البريد الإلكتروني الذي أدخلته غير صحيح!";
+"valPasswordPattern" = "كلمة المرور غير مقبولة، يجب أن لا يقل طولها عن ٨ و أن تحتوي على الأقل على حرف واحد كبير و حرف واحد صغير و رقم واحد.";
+"valMatchPassword" = "The two passwords must be identical.";
+"valPINCodeLength" = "كود التأكيد لا يقل عن أربعة أرقام!";
+
+"valRequiredFieldUsername" = "برجاء إدخال البريد الإلكتروني أو رقم الهاتف!";
+"valRequiredFieldPassword" = "برجاء إدخال كلمة المرور!";
+"valRequiredFieldName" = "برجاء إدخال الاسم!";
+"valRequiredFieldEmail" = "برجاء إدخال البريد الإلكتروني!";
+"valRequiredFieldPhoneNumber" = "برجاء إدخال رقم الهاتف!";
+"valRequiredFieldStreet" = "برجاء إدخال الشارع!";
+"valRequiredFieldPINCode" = "برجاء إدخال كود التحقق!";
+"valRequiredFieldCode" = "برجاء إدخال الكود!";
+
+"valNotMatchingPasswords" = "كلمتا المرور يجب أن تكونا متطابقتان!";
+
+"valOrderMinValue" = "يجب ألا تقل قيمة طلبك عن {0} جنيها";
+"valOrderAddress" = "قم باختيار عنوان.";
+"valCouponCodeEmpty" = "أدخل كود الخصم";

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>LamaRounded-Regular.ttf</string>
+		<string>LamaRounded-RegularItalic.ttf</string>
+		<string>LamaRounded-Light.ttf</string>
+		<string>LamaRounded-SemiBoldItalic.ttf</string>
+		<string>LamaRounded-ExtraLightItalic.ttf</string>
+		<string>LamaRounded-SemiBold.ttf</string>
+		<string>LamaRounded-Thin.ttf</string>
+		<string>LamaRounded-MediumItalic.ttf</string>
+		<string>LamaRounded-Bold.ttf</string>
+		<string>LamaRounded-BoldItalic.ttf</string>
+		<string>LamaRounded-ExtraBoldItalic.ttf</string>
+		<string>LamaRounded-ThinItalic.ttf</string>
+		<string>LamaRounded-ExtraLight.ttf</string>
+		<string>LamaRounded-ExtraBold.ttf</string>
+		<string>LamaRounded-Medium.ttf</string>
+		<string>LamaRounded-LightItalic.ttf</string>
+		<string>LamaRounded-Black.ttf</string>
+		<string>LamaRounded-BlackItalic.ttf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+</dict>
+</plist>
